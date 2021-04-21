@@ -20,7 +20,9 @@
 <div class="container mx-auto  px-4 md:px-0">
 	<div class="flex flex-col md:flex-row">
 		<div class="hidden md:block w-3/12 relative bg-white py-10">
-			Left
+			<div class="filter">
+				<?php echo do_shortcode('[wpf-filters id=1]') ?>
+			</div>
 		</div>
 		<div class="w-full md:w-9/12 py-10 md:pl-8">
 			<?php
