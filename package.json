@@ -1,0 +1,28 @@
+{
+  "name": "znachok",
+  "version": "1.0.0",
+  "description": "Treba",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-inline-source": "^4.0.0",
+    "gulp-install": "^1.1.0",
+    "gulp-sass": "^4.1.0",
+    "sass-watch": "^0.1.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.0.1"
+  },
+  "browserslist": [
+    "last 5 version",
+    "> 1%",
+    "IE 10"
+  ]
+}

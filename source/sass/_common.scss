@@ -1,0 +1,95 @@
+body {
+	font-family: 'Spartan', sans-serif;
+	background-color: #E5E5E5;
+}
+
+h1 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 36px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: #10084C;	
+}
+
+h2 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 25px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: #10084C;
+	@include for-phone {
+		font-size: 20px;
+		line-height: 22px;
+	}
+}
+
+.text-dark-blue {
+	color: #10084C;
+}
+
+.dark-link {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 13px;
+	letter-spacing: 0.06em;
+	color: #10084C;
+}
+
+.content {
+	p {
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 22px;
+		color: #000000;
+		margin-bottom: 1rem;
+		@include for-phone {
+			font-size: 12px;
+			line-height: 22px;
+		}
+	}
+	ul {
+		margin-bottom: 1rem;
+		margin-left: 1rem;
+		li {
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 22px;
+			color: #000000;
+			list-style-type: disc;
+			margin-bottom: 0.5rem;
+		}
+	}
+}
+
+.btn {
+	&_transparent {
+		min-width: 350px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 13px;
+		line-height: 15px;
+		text-align: center;
+		color: #10084C;
+		background-color: transparent;
+		border: 1px solid #10084C;
+		border-radius: 10px;
+	}
+	&_blue {
+		min-width: 350px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 13px;
+		line-height: 15px;
+		text-align: center;
+		color: #FFFFFF;
+		background: #2FA9ED;
+		border-radius: 10px;
+	}
+}
